@@ -452,15 +452,15 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Account number ",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isPublicNetwork": true,
+              "protocol": "HTTP",
               "threats": [
                 {
                   "id": "cb086ce2-de34-44fb-aea1-d74117f57737",
@@ -483,7 +483,7 @@
               }
             },
             "labels": [
-              "Data Flow"
+              "Account number "
             ],
             "id": "5e597ee0-eb66-4ca7-933c-2b39c9fcfad2",
             "source": {
