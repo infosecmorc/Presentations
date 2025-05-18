@@ -497,9 +497,49 @@
           }
         ],
         "description": "Sample STRIDE "
+      },
+      {
+        "id": 1,
+        "title": "Sample DIE Model ",
+        "diagramType": "DIE",
+        "placeholder": "New DIE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.die.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Sample DIE"
+      },
+      {
+        "id": 2,
+        "title": "Sample LINDDUN Model",
+        "diagramType": "LINDDUN",
+        "placeholder": "New LINDDUN diagram description",
+        "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Sample LINDDUN"
+      },
+      {
+        "id": 3,
+        "title": "Sample PLOT4ai Model",
+        "diagramType": "PLOT4ai",
+        "placeholder": "New PLOT4ai diagram description",
+        "thumbnail": "./public/content/images/thumbnail.plot4ai.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Sample PLOT4ai"
+      },
+      {
+        "id": 4,
+        "title": "Sample Generic Model ",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Sample Generic"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 5,
     "reviewer": "infosecmorc",
     "threatTop": 1
   }
