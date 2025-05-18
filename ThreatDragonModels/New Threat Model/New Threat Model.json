@@ -2,15 +2,26 @@
   "version": "2.4.1",
   "summary": {
     "title": "New Threat Model",
-    "owner": "",
-    "description": "",
+    "owner": "infosecmorc",
+    "description": "Sample systems ",
     "id": 0
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
-    "diagramTop": 0,
-    "reviewer": "",
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Sample STRIDE ",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [],
+        "description": "Sample STRIDE "
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "infosecmorc",
     "threatTop": 0
   }
 }
