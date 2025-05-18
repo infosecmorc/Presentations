@@ -515,7 +515,469 @@
         "placeholder": "New LINDDUN diagram description",
         "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
         "version": "2.4.1",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 160,
+              "y": 540
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ee40f692-8ee8-4fa6-bf87-86917c66ca9c"
+                },
+                {
+                  "group": "right",
+                  "id": "3314ec26-e5b5-4f63-9230-7c1354f28d65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "e6e53393-6991-4cf0-a750-1a4039cac966"
+                },
+                {
+                  "group": "left",
+                  "id": "ed898080-1d24-4f13-824e-c1277a8de3be"
+                }
+              ]
+            },
+            "id": "15dd8f5c-b9a9-4525-9ee8-150698608326",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 488,
+              "y": 540
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d75dc69d-76e8-427b-8379-8ac702a5f772"
+                },
+                {
+                  "group": "right",
+                  "id": "3d65c495-fd55-4a11-82e7-593fe62533fe"
+                },
+                {
+                  "group": "bottom",
+                  "id": "925409e7-5046-4df7-8bfd-61809fe6fb18"
+                },
+                {
+                  "group": "left",
+                  "id": "09be6443-3642-4c89-b444-0d2923d73644"
+                }
+              ]
+            },
+            "id": "441a5153-e05f-4686-8e5d-2fe11a41bd05",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Store",
+              "name": "Store",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 134,
+              "y": 732
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "119dada8-bd9b-4bb5-973a-81f597c08e4b"
+                },
+                {
+                  "group": "right",
+                  "id": "733d089b-469d-483b-b3ac-6a1d7c8e6769"
+                },
+                {
+                  "group": "bottom",
+                  "id": "90ea06cd-9e3c-4da2-abb9-f5bdb15755cb"
+                },
+                {
+                  "group": "left",
+                  "id": "052975fe-284c-4696-b567-c6ae6b61e0f4"
+                }
+              ]
+            },
+            "id": "1e910863-43d9-4a2b-b940-0e46fd421598",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "18ada7ee-1e7c-4ae9-93dd-70edf6795b63",
+            "source": {
+              "x": 220,
+              "y": 573
+            },
+            "target": {
+              "cell": "441a5153-e05f-4686-8e5d-2fe11a41bd05",
+              "port": "09be6443-3642-4c89-b444-0d2923d73644"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Name ",
+              "description": "User Identifier ",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "SSH ",
+              "threats": [
+                {
+                  "id": "1dc9a023-7b41-4416-beec-640a59522059",
+                  "title": "Linkability ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Linkability",
+                  "description": "too much linking ",
+                  "mitigation": "Remove user ",
+                  "modelType": "LINDDUN",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "linkability": 1,
+                "identifiability": 0,
+                "nonRepudiation": 0,
+                "detectability": 0,
+                "disclosureOfInformation": 0,
+                "nonCompliance": 0
+              }
+            },
+            "labels": [
+              "User Name "
+            ],
+            "id": "19f8e6e5-b82b-4e8d-93ec-5f65d178a06b",
+            "source": {
+              "x": 190,
+              "y": 600
+            },
+            "target": {
+              "cell": "1e910863-43d9-4a2b-b940-0e46fd421598",
+              "port": "119dada8-bd9b-4bb5-973a-81f597c08e4b"
+            }
+          }
+        ],
         "description": "Sample LINDDUN"
       },
       {
@@ -541,6 +1003,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "infosecmorc",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
